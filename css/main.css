@@ -1,0 +1,60 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-family: "Open Sans", sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body{
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+  font-family: "Open sans",bold;
+  font-size: 2rem;
+  text-align: center;
+
+}
+
+i {
+  font-family: "Open sans";
+  font-size:.875rem;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #333;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 1.125rem;
+  border: 3px solid #333;
+  padding: .4em .75em .3em;
+  display: flex;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #000;
+  border-color: #000;
+}
+
+section {
+  background-color: #f2f2f2;
+  padding: 0;
+}
+
+img {
+  display: block;
+  width: 25%;
+  height: 100px;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  flex-grow:
+}
