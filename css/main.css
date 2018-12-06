@@ -8,21 +8,44 @@ html {
   box-sizing: inherit;
 }
 
-body{
+body {
   margin: 0;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+h1 {
+  margin: 0;
+  font-family: "Open sans", bold;
+  font-size: 2rem;
+  text-align: center;
+  padding: 1.5rem;
 }
 
 h2 {
   margin: 0;
-  font-family: "Open sans",bold;
-  font-size: 2rem;
-  text-align: center;
-
+  padding-top: 1.5em;
+  font-size: 1rem;
+  padding-left: .5em;
+  padding-right: .2em;
 }
 
-i {
+h3 {
   font-family: "Open sans";
-  font-size:.875rem;
+  font-style: italic;
+  font-weight: normal;
+  font-size: .875rem;
+  margin: 0;
+  padding-left: .5em;
+}
+
+p {
+  margin: 0;
+  margin-bottom: 3em;
+  padding-left: .5em;
+  padding-right: .2em;
+  flex-grow: 1;
+  align-items: stretch;
 }
 
 .btn {
@@ -30,10 +53,12 @@ i {
   background-color: #333;
   color: #fff;
   border-radius: 8px;
-  font-size: 1.125rem;
+  font-size: 1rem;
   border: 3px solid #333;
-  padding: .4em .75em .3em;
+  padding: .6rem;
+  padding-top: .3rem;
   display: flex;
+  align-items: center;
 }
 
 .btn:hover {
@@ -42,19 +67,62 @@ i {
   border-color: #000;
 }
 
+.btn-small {
+  background-color: #333;
+}
+
 section {
   background-color: #f2f2f2;
-  padding: 0;
+  margin: 0;
 }
 
 img {
+  width: 100%;
   display: block;
-  width: 25%;
-  height: 100px;
 }
 
-div {
+section img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}
+
+.barrett {
+  background-color: #e2e2e2;
+  border-left: 1px solid #333;
+  display: inline-block;
+  width: 25%;
+  padding: .6em;
+}
+
+.hedegaar {
+  background-color: #ccc;
+  border-left: 1px solid #333;
+  display: inline-block;
+  width: 25%;
+  padding: .6em;
+}
+
+.cejkova {
+  background-color: #aaa;
+  border-left: 1px solid #333;
+  display: inline-block;
+  width: 25%;
+  padding: .6em;
+}
+
+.olivarez {
+  background-color: #999;
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
+  display: inline-block;
+  width: 25%;
+  padding: .6em;
+}
+
+.row {
   display: flex;
-  flex-direction: column;
-  flex-grow:
+  width: 100%;
+  flex-direction: row;
 }
